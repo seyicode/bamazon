@@ -1,3 +1,9 @@
+drop database if EXISTS bamazon_db;
+
+create database bamazon_db;
+
+use  bamazon_db;
+
 create table products (
 	item_id INT,
 	product_name VARCHAR(50),
